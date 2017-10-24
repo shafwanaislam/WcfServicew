@@ -12,8 +12,7 @@ namespace WcfServicew
     [ServiceContract]
     public interface IService1
     {
-
-        [OperationContract]
+       [OperationContract]
         string GetData(int value);
 
         [OperationContract]
